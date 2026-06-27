@@ -1,7 +1,11 @@
 package com.jeevan.railway_ticket_booking.model;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
+
+@Entity
 public class Train {
-
+    @Id
     private String trainNumber;
     private String trainName;
     private String source;
